@@ -248,6 +248,38 @@
         }
       ]
     },
+     {
+      "GroupId": "PowerPlanSettings",
+      "Label": "set power plan",
+      "ToolTip": "Power Plans control how your system utilizes power to balance out performance and battery life.",
+      "Category": "System",
+      "Values": [
+        {
+          "Label": "Balanced",
+          "FeatureIds": [
+            "BalancedPowerPlan"
+          ]
+        },
+        {
+          "Label": "High Performance",
+          "FeatureIds": [
+            "HighPerformancePowerPlan"
+          ]
+        },
+        {
+          "Label": "Power Saver",
+          "FeatureIds": [
+            "PowerSaverPowerPlan"
+          ]
+        },
+        {
+          "Label": "Ultimate Performance",
+          "FeatureIds": [
+            "UltimatePerformancePowerPlan"
+          ]
+        },
+      ]
+    },
     {
       "GroupId": "ShowTabsInAltTab",
       "Label": "Show tabs from apps when snapping or pressing Alt+Tab",
@@ -1038,38 +1070,6 @@
       "RegistryUndoKey": "Enable_Fast_Startup.reg",
       "MinVersion": null,
       "MaxVersion": null
-    },
-    {
-      "GroupId": "PowerPlanSettings",
-      "Label": "set power plan",
-      "ToolTip": "Power Plans control how your system utilizes power to balance out performance and battery life.",
-      "Category": "System",
-      "Values": [
-        {
-          "Label": "Balanced",
-          "FeatureIds": [
-            "BalancedPowerPlan"
-          ]
-        },
-        {
-          "Label": "High Performance",
-          "FeatureIds": [
-            "HighPerformancePowerPlan"
-          ]
-        },
-        {
-          "Label": "Power Saver",
-          "FeatureIds": [
-            "PowerSaverPowerPlan"
-          ]
-        },
-        {
-          "Label": "Ultimate Performance",
-          "FeatureIds": [
-            "UltimatePerformancePowerPlan"
-          ]
-        },
-      ]
     },
     {
       "FeatureId": "BalancedPowerPlan",
