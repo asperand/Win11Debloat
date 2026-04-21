@@ -1040,7 +1040,7 @@
       "MaxVersion": null
     },
     {
-      "FeatureId": "PowerPlanSettings",
+      "GroupId": "PowerPlanSettings",
       "Label": "set power plan",
       "ToolTip": "Power Plans control how your system utilizes power to balance out performance and battery life.",
       "Category": "System",
@@ -1070,6 +1070,58 @@
           ]
         },
       ]
+    },
+    {
+      "FeatureId": "BalancedPowerPlan",
+      "Label": "Balanced",
+      "ToolTip": "Set system power plan to 'Balanced'",
+      "Category": "System",
+      "Action": "Enable Balanced Power Plan",
+      "RegistryKey": "BalancedPowerPlan.reg",
+      "ApplyText": "Enabling Balanced Power Plan...",
+      "UndoAction": null,
+      "RegistryUndoKey": null,
+      "MinVersion": 22000,
+      "MaxVersion": null
+    },
+    {
+      "FeatureId": "HighPerformancePowerPlan",
+      "Label": "High Performance",
+      "ToolTip": "Set system power plan to 'High Performance'",
+      "Category": "System",
+      "Action": "Enable High Performance Power Plan",
+      "RegistryKey": "HighPerformancePowerPlan.reg",
+      "ApplyText": "Enabling High Performance Power Plan...",
+      "UndoAction": null,
+      "RegistryUndoKey": null,
+      "MinVersion": 22000,
+      "MaxVersion": null
+    },
+    {
+      "FeatureId": "PowerSaverPowerPlanPowerPlan",
+      "Label": "Power Saver",
+      "ToolTip": "Set system power plan to 'Power Saver'",
+      "Category": "System",
+      "Action": "Enable Power Saver Power Plan",
+      "RegistryKey": "PowerSaverPowerPlan.reg",
+      "ApplyText": "Enabling Power Saver Power Plan...",
+      "UndoAction": null,
+      "RegistryUndoKey": null,
+      "MinVersion": 22000,
+      "MaxVersion": null
+    },
+    {
+      "FeatureId": "UltimatePerformancePowerPlan",
+      "Label": "Ultimate Performance",
+      "ToolTip": "Set system power plan to 'Ultimate Performance'",
+      "Category": "System",
+      "Action": "Enable Ultimate Performance Power Plan",
+      "RegistryKey": "UltimatePerformancePowerPlan.reg",
+      "ApplyText": "Enabling Ultimate Performance Power Plan...",
+      "UndoAction": null,
+      "RegistryUndoKey": null,
+      "MinVersion": 22000,
+      "MaxVersion": null
     },
     {
       "FeatureId": "DisableBitlockerAutoEncryption",
