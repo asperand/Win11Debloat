@@ -30,6 +30,7 @@ param (
     [switch]$DisableTelemetry,
     [switch]$DisableSearchHistory,
     [switch]$DisableFastStartup,
+    [switch]$BalancedPowerPlan,[switch]$HighPerformancePowerPlan,[switch]$PowerSaverPowerPlan,[switch]$UltimatePerformancePowerPlan,
     [switch]$DisableBitlockerAutoEncryption,
     [switch]$DisableModernStandbyNetworking,
     [switch]$DisableStorageSense,
